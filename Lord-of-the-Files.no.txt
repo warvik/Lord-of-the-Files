@@ -1,4 +1,4 @@
-Filenes herrer: Hvordan GitHub temmet gratisk programvare (og mere)
+Filenes herrer: Hvordan GitHub temmet gratis programvare (og mere)
 
 Av Robert McMillan, Wired Enterprise
 
@@ -28,13 +28,13 @@ Dette var den skjulte hemmeligheten med åpen kildekode. For det gjennomsnittlige
 
 The Second Coming of Linus
 
-Så i 2005 utviklet Torvald Git, 
+Så i 2005 utviklet Torvald versjonskontrollsystemet Git, spesielt utviklet for å fjerne alt det vanskelige arbeidet med å administrere et programvareprosjekt. Ved å benytte Git kan alle flikke på deres egen versjon av Linux, eller hvilket helst prosjekt, for så, ved trykk på en knapp, dele endringene med Torvald eller hvem som helst. Det er dedikerte personer med spesiell tillatelse. Rent praktisk, så utviklet Torvald et verktøy som gjør det lett for noen og enhvert å opprette egne alternativer til sitt Linux prosjekt. Rent teknisk kalles dette for lag en "fork"
 
-So in 2005, Torvalds created Git, version control software specifically designed to take away the busywork of managing a software project. Using Git, anybody can tinker with their own version of Linux ó or indeed any software project ó and then, with a push of a button, share those changes with Torvalds or anyone else. There is no gatekeeper. In practical terms, Torvalds created a tool that makes it easy for someone to create an alternative to his Linux project. In technical terms, thatís called a ìforkî.
+På 1990-tallet ble "forking" sette på som en dårlig ting. På den måten oppstod all disse konkurrerende, og uforenelige, versjonene av Unix. For en stund var det en frykt at noen ville utvikle deres egen versjon av Linux, en verjson av operativsystemet som ikke ville kjøre de samme programmene eller fungere på samme måte. Men i Git-verdenen så er "forking" en god idé. Trikset var å forsikre seg om at forbedringene som ble laget ble delt tilbake til Linux-samfunnet. Det er bedre å la folk splitte prosjektet og flikke på det, enn å stenge de ute ved å la kun få betrodde utviklere røre den sentrale koden.
 
-Back in the 1990s, forking was supposed to be a bad thing. Itís what created all of those competing, incompatible versions of Unix. For a while, there was a big fear that someone would somehow create their own fork of Linux, a version of the operating system that wouldnít run the same programs or work in the same way. But in the Git world, forking is good. The trick was to make sure the improvements people worked out could be shared back with the community. Itís better to let people fork a project and tinker away with their own changes, than to shut them out altogether by only letting a few trusted authorities touch the code.
+På en sjelden soldag i februar i Portland demonstrerte Torvald Git for Wired på sitt hjemmekontor. Med kun få tastetrykk ser han to nye ser han to nye innsendelser som endrer den samme kjernekoden på forskjellige måter, et protensielt problem.
 
-On a rare sunny February day in Portland, Torvalds demonstrates Git for a Wired at his home office. With a few keystrokes, he quickly spots two new kernel submissions that change the same kernel code in different ways, a potential problem source.
+I det gamle regimet var det veldig vanskelig å starte en ny radikal gren av koden fordi du som regel måtte overbevise de involverte
 
 The old regime ìmakes it very hard to start radical new branches because you generally need to convince the people involved in the status quo up-front about their need to support that radical branch,î Torvalds says. ìIn contrast, Git makes it easy to just ëdo ití without asking for permission, and then come back later and show the end result off ó telling people ëlook what I did, and I have the numbers to show that my approach is much better.íî
 
