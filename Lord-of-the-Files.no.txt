@@ -1,0 +1,88 @@
+Filenes herrer: Hvordan GitHub temmet gratisk programvare (og mere)
+
+Av Robert McMillan, Wired Enterprise
+
+SAN FRANCISCO ó When the founders of GitHub moved into their swank South-of-Market loft last year, the first thing they did was redecorate. They turned the floorís biggest office into a parody of an executive suite ó complete with fake fireplace, plush leather chairs, and a wooden globe that slides open to reveal a bottle of single malt scotch. Hanging from the wall is a painting of a cat, dressed as Napoleon, with five octopus-like legs. They call it the Octocat.
+
+The point is that itís not an executive suite. Itís a communal meeting room where anyone can hang out with anyone else, get some work done, and have a little fun at the same time.
+
+ìEverybody can bring their friends into that room and sort of impress them and stuff,î says Scott Chacon, GitHubís CIO co-founder. You see, Chacon and CEO Chris Wanstrath and the rest of the executive team donít have private offices. They work on the open floor next to the coders, glued to monitors with the rest of the staff, listening to LCD Soundsystem. Loud.
+
+GitHubs nerdete 13000 m2 loft speiler deres oppgave: å demokratisere programvareutvikling. GitHub.com kan sees på som Facebook for nerder. I steden for å laste opp en video av din katt, laster du opp programvare. Enhver kan kommentere din code og bygge videre på den til noe bedre. Trikset er desentralisert programmering, å gi alle kontroll på en ny måte. GitHub har endret hvordan programvare blir skrevet, gjort koding litt mer anarkistisk, litt mer artig, og mye mer produktivt.
+
+Og programvareverdenen elsker det. GitHub har nå mer enn 1.3 million brukere, og over 2 millioner kildekode-depoter; åtte ganger mer enn for bare to år siden. Hvis du teller tekstudrag av kode og Wiki-sider lagret på siden, så er det mer en 4 millioner depoter. For to år siden var GitHub var et team på åtte, og hadde møter på caféer i San Francisco. Ved begynnelsen av 2011 hadde de vokst til 14 "hubbernauts", som ansatte så hengivende blir kalt. Og et år senere er de 57. I juli tok de over kontorene til utviklerene av bloggingsystemet Movable Type, Six Apart. GitHub vokser fort, og har ikke tatt et øre inn i venture-kapital.
+
+Når du først har hørt om GitHub, så oppdager du de overalt. Noen ganger lagrer de kode som understøtter en stor nettside. Andre ganger, kjører de hemmelig kode for en Fortune 500-bedrift. De har brakt åpen kildekode så mye nærmere å oppfylle dets potensiale. Men det stopper ikke der. De demokratiserer opprettelsen av websider og DNA analyseverktøy og kanskje også lovgivning for et land.
+
+GitHub har endret måten mennesker imøtekommer utvikling, sier Tom Presetn-Werner, bedriftens utviklingssjef. De innså at det ikke behøvde å være så komplekst.
+
+Git fjerner kløe
+
+Lik så mange andre suksessfulle nerdeprosjekter, GitHub begynte med kodere som hadde et problem. For omtrent fem år siden, utviklet Wanstrat og programmerer P.J. Hyett kode gjennom Cnet, teknologi og vurderingsnettstedet (?). Deres foretrukne språk var Ruby on Rails, et programmeringsrammeverk som gjør det enkelt å utviklet Webapplikasjoner.
+
+Ettersom de utviklet deres sider hos Cnet, endte Wanstrath og Hyett opp med å videreutviklet selve Ruby on Rails. Men de hadde erfart at det var så lett å få disse endringene integrert tilbake i åpen kildekodeprosjektet. Dette prosjektet fulgta da en strengt regulert model for åpen kildekode. Rails var administrert av en kjerne klarerte programmerere som hadde fått spesiell tillatelse til å implementere endringer til prosjektets kildekode. For å få en av deres endringer inn i den sentrale kildekoden, måtte Wanstrath og Hyett drive lobby-virksomhet opp mot disse klarerte utviklerne og overbevise dem om at det de hadde utviklet var verdt å implementere. Dette var ofte mer arbeid en det å skrive selve koden.
+
+De var ikke de eneste utviklerene som stanget mot denne modellen for å utvikle åpen kildekode. For et tiår siden fant Linus Torvald ut at det var vanskelig å administrere denne rollen operativsystemet Linux, som han hadde utviklet. I begynnelsen oppbevarte Torvald Linux på en nettside som ble eid av Universitetet i Helsinki. Hvis noen fant en feil i koden måtte de sende han en fil med endringene via e-post. Hvis Torvald leste e-posten og likte endrignene, ville han implementere dem inn i Linux. Men Torvalds var notorisk for ikke å lese all sin e-post, og ettersom prosjektet vokste, ble flere og flere innmeldinger ikke lest.
+
+Dette var den skjulte hemmeligheten med åpen kildekode. For det gjennomsnittlige programvareprosjektet ble store deler av koden, kanskje mesteparten av koden, aldri brukt. Det var ofte for vanskelig for vanlige programmerere å vise utviklerne endringene de hadde gjort og å få disse flettet tilbake inn i den sentrale kildekoden.
+
+The Second Coming of Linus
+
+Så i 2005 utviklet Torvald Git, 
+
+So in 2005, Torvalds created Git, version control software specifically designed to take away the busywork of managing a software project. Using Git, anybody can tinker with their own version of Linux ó or indeed any software project ó and then, with a push of a button, share those changes with Torvalds or anyone else. There is no gatekeeper. In practical terms, Torvalds created a tool that makes it easy for someone to create an alternative to his Linux project. In technical terms, thatís called a ìforkî.
+
+Back in the 1990s, forking was supposed to be a bad thing. Itís what created all of those competing, incompatible versions of Unix. For a while, there was a big fear that someone would somehow create their own fork of Linux, a version of the operating system that wouldnít run the same programs or work in the same way. But in the Git world, forking is good. The trick was to make sure the improvements people worked out could be shared back with the community. Itís better to let people fork a project and tinker away with their own changes, than to shut them out altogether by only letting a few trusted authorities touch the code.
+
+On a rare sunny February day in Portland, Torvalds demonstrates Git for a Wired at his home office. With a few keystrokes, he quickly spots two new kernel submissions that change the same kernel code in different ways, a potential problem source.
+
+The old regime ìmakes it very hard to start radical new branches because you generally need to convince the people involved in the status quo up-front about their need to support that radical branch,î Torvalds says. ìIn contrast, Git makes it easy to just ëdo ití without asking for permission, and then come back later and show the end result off ó telling people ëlook what I did, and I have the numbers to show that my approach is much better.íî
+
+It may have been built for Linux, but Git quickly proved to be a godsend for any large organization managing giant code bases. Today, Facebook, Staples, Verizon and even Microsoft are users. At Google, Git is so important that the company pays Junio Hamano ñ who took over the project from Torvalds ñ to work on Git fulltime, and also pays the salary for the projectís second-in-command, Shawn Pearce. 
+
+Git Without the ëPain in the Assí
+
+The problem is that not everyone is Linus Torvalds, and not every company is Google. For the 99 percent, Gitís command-line interface is notoriously difficult to use. Thatís where GitHub comes in. It simplifies Git. A lot. Its first slogan was: ìGit hosting: No longer a pain in the ass.î
+
+Tom Preston-Werner dreamed up GitHub and roped Chris Wanstrath into the project one night in October 2007 at a coderís meet-up at Zekeís, a San Francisco sports bar a few blocks from the downtown stadium where the San Francisco Giants play.
+
+At first, GitHub was a side project. Wanstrath and Preston-Werner would meet on Saturdays to brainstorm, while coding during their free time and working their day jobs. ìGitHub wasnít supposed to be a startup or a company. GitHub was just a tool that we needed,î Wanstrath says. But ó inspired by Gmail ó they made the project a private beta and opened it up to others. Soon it caught on with the outside world.
+
+By January of 2008, Hyett was on board. And three months after that night in the sports bar, Wanstrath got a message from Geoffrey Grosenbach, the founder of PeepCode, a online learning site that had started using GitHub. ìIím hosting my companyís code here,î Grosenbach said. ìI donít feel comfortable not-paying you guys. Can I just send a check?î
+
+It was the first of many. In July 2008, Microsoft acquired Powerset, the startup that was providing Preston-Werner with a day job. The software giant offered Preston-Werner a $300,000 bonus and stock options to stay on board for another three years. But he quit, betting everything on GitHub.
+
+ìIt was a little scary at the time to give up something like that, but I would not change anything about that decision at all,î he says now.
+
+When Wired visited GitHubís offices earlier this year, we found a bit of a geeksí paradise. Thereís an iPhone-controlled quadcopter and a four-tap kegerator, and a conference room thatís a low-budget knockoff of the White Houseís situation room, complete with a massive 1970's style red phone. But the toys arenít what makes GitHub different. Itís the startupís outright hostility toward corporate command-and-control that really sets it apart.
+
+ìWe donít keep track of vacation days; we donít keep track of hours. It doesnít matter to us,î says CIO Scott Chacon. ìIíve been here at midnight and there are five people here. And Iíve been here in the middle of the day on a Thursday and thereís nobody here.î
+
+And yet itís the most productive software development team heís ever worked on, Chacon says.
+
+Git to the Future
+
+Preston-Wernerís bet has paid off. GitHub is now profitable. Users can sign up for free and start contributing, but they pay money if they want to privately host code there ó starting at $7 per month. GitHub also sells an enterprise product that lets companies run your own version of GitHub behind the corporate firewall. That starts at $5,000 per year, but can cost hundreds of thousands annually for companies with hundreds of coders.
+
+Ironically, though, GitHubís die-hard fans donít include Torvalds, who briefly moved Linux kernel development to GitHub last September following a security breach at its old home.
+
+ìI like GitHub a lot,î he says. ìThereís a reason it became one of the biggest source code repositories rather quickly.î But he then unfurls a long list of all the ìseriousî problems he had with it when he hosted his code on the site ó many of which have since been fixed. He couldnít filter comments, the e-mail interface dropped attachments, the web interface messed up code contributions, and so on. The bottom line: GitHub makes it easy to code. But it can also make it easy to generate crap.
+
+That may be true, but it hasnít held the site back. GitHub users are seemingly everywhere. On recent afternoon in San Franciscoís North Beach neighborhood, Wired was discussing the site with GitHub director of engineering Ryan Tomayko. Suddenly the guy at the next table leaned over and interrupted, like a teenager overhearing two strangers talk about his favorite band. ìI just have to tell you,î he said, ìGitHub is amazing.î
+
+Itís even feeding the Occupy movement. When Jonathan Baldwin wanted to write a cell-phone version of the Peopleís Microphone, used by Occupy to pass messages around big crowds, he posted his code straight to GitHub. The site let him share his code easily, and quickly connect with other developers to hammer out technical issues. ìGitHub is the best thing ever. If you donít host on GitHub, it doesnít exist,î says Baldwin, a student at Parsons the New School for Design in New York.
+
+And software is only part of the story. Geeks are learning that GitHub can help manage other projects as well. Books and even transcripts of talks have popped up on the site. One GitHub user, Manu Sporny, published his DNA information to the site last year, in the hope of spurring development of open-source DNA analysis software by providing real test data to analyze.
+
+When Scott Chabon wrote a book about GitHub, the first fork appeared within a month. It was a German translation of his book. Now, three years later, itís been translated into 10 languages, with another 10 translations in the works. Half of the traffic to the bookís website comes from China. ìTons of people in China are learning Git because they can read [the book] in Chinese on my website, because somebody provided that,î he says.
+
+Ryan Blair, a technologist with the New York State Senate, thinks it could even give citizens a way to fork the law ó proposing their own amendments to elected officials. A tool like GitHub could also make it easier for constituents to track and even voice their opinions on changes to complex legal code. ìWhen you really think about it, a bill is a branch of the law,î he says. ìIím just in love with the idea of a constituent being able to send their state senator a pull request.î
+
+GitHub today is the darling of the open-source world, but this year, the company has set its sights on Microsoft. The company recently hired a pair of developers from the software giant, and itís working on new software to rope in the still-considerable army of coders who write programs using Microsoftís software development tools.
+
+ìI want to live in a world where itís easier to work together than to work aloneÖ where every part of the software development process is a joy,î says CEO Wanstrath. ìAnd I think GitHub can make help make that happen.
+
+
+SIDEBAR:
+
+Why Git? Itís the British slang term for stupid, despicable person ó arse. The joke ìI name all my projects for myself, first Linux, then gitî was just too good to pass up. But it is also short, easy-to-say, and type on a standard keyboard. And reasonably unique and not any standard command, which is unusual.ñLinus Torvalds
